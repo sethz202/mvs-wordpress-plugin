@@ -1,0 +1,20 @@
+{
+	"apiVersion": 3,
+	"name": "create-block/ce-events-display-block",
+	"version": "0.1.0",
+	"title": "CE Events Block",
+	"category": "widgets",
+	"description": "Display CE Events",
+	"example": {},
+	"attributes": {
+		"events": {
+			"type": "array"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "ce-events-block",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}

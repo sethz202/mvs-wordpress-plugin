@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/equipment-library-block",
+  "version": "0.2.0",
+  "title": "Equipment Library Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Equipment Library Block",
+  "example": {},
+  "attributes": {
+    "group": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "full",
+      "wide"
+    ]
+  },
+  "textdomain": "equipment-library-block",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
